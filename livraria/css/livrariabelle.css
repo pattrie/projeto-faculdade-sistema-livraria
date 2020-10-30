@@ -1,0 +1,25 @@
+/*fonte e tamanho da página*/
+body {
+    font-family: 'EB Garamond', serif;
+    font-size: 16px;
+   }
+
+/*redimensão da imagem logo de livro*/
+#navbar-brand-logo {
+height: 34px;
+margin-top:-6px; 
+}
+
+/*fonte do nome da página no corpo*/
+#logo {
+    font-family: 'Great Vibes', cursive;
+    font-size: 28px;
+}
+
+.text-center .img-responsive {
+    margin: 0 auto;
+}
+
+.card-group {
+    display: flex;
+}

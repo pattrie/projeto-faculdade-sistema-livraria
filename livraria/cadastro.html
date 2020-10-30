@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Librairie Belle | Cadastro</title>
+    <!--padrão para funcionar adequadamente em diversos navegadores-->
+    <link rel="icon" id="favicon" href="img/iconfinder_love-book_2903245.png" type="image/x-icon" />
+    
+    <!-- Place your kit's code here -->
+    <script src="https://kit.fontawesome.com/1466977700.js"></script>
+    
+    <!--https://fontawesome.com/kits/1466977700/use-->
+
+    <!--Links para o CSS e JS do Bootstrap e jQuery-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!--Folha de Estilo-->
+    <link rel="stylesheet" href="css/livrariabelle.css">
+
+    <!--Link para fontes externas-->
+    <link
+        href="https://fonts.googleapis.com/css?family=Amiri|Dancing+Script|EB+Garamond|Great+Vibes|Libre+Franklin|Satisfy&display=swap"
+        rel="stylesheet">
+
+</head>
+
+
+<body>
+
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="index.html" class="navbar-brand"><img id="navbar-brand-logo"
+                        src="img/iconfinder_love-book_2903245.png" alt="book"></a>
+                <a href="index.html" class="navbar-brand" id="logo">Librairie Belle</a>
+                <button class="navbar-toggle glyphicon glyphicon-menu-hamburger" data-toggle="collapse"
+                    data-target="#navbar-belle"></button>
+
+            </div>
+
+            <ul id="navbar-belle" class="nav navbar-nav nav navbar-right collapse navbar-collapse">
+                <li><a href="login.html">Entre</a></li>
+                <li class="active"><a href="cadastro.html">Cadastre-se</a></li>
+                <li><a href="promo.html">Promoções</a></li>                
+                <li><a href="lista.html">Lista de Desejos</a></li>
+                <li><a href="carrinho.html">Carrinho</a></li>
+            </ul>
+
+        </div>
+
+    </nav>
+  
+<div class="container">
+
+<form>
+        <p class="h3 mb-3 font-weight-normal" style="text-align: center; font-size: 50px">Faça seu cadastro</p>
+    
+    <!--1ª linha-->
+  <div class="form-row">
+    <div class="form-group col-md-4 mb-3">
+      <label for="validationServer01">Primeiro nome</label>
+      <input type="text" class="form-control is-valid" id="validationServer01" placeholder="Ex.: Keanu" required>
+    </div>
+
+
+    <div class="form-group col-md-4 mb-3">
+      <label for="validationServer02">Sobrenome</label>
+      <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Ex.: Charles Reeves" required>
+    </div>
+
+    <div class="form-group col-md-4 mb-3">
+      <label for="validationServer03">Email</label>
+      <input type="text" class="form-control is-valid" id="validationServer03" placeholder="Ex.: keanu@email.com" required>
+    </div>
+</div>
+       
+    <!--2ª linha-->
+  <div class="form-row">
+    <div class="form-group col-md-4 mb-3">
+      <label for="validationServer04">Senha</label>
+      <input type="text" class="form-control is-invalid" id="validationServer04" required>
+    </div>
+      
+    <div class="form-group col-md-4 mb-3">
+      <label for="validationServer05">Confirmar senha</label>
+      <input type="text" class="form-control is-invalid" id="validationServer05" required>
+    </div>
+      
+    <div class="form-group col-md-4 mb-3">
+      <label for="validationServer06">CPF / CNP / RNE</label>
+      <input type="text" class="form-control is-invalid" id="validationServer06" required>
+    </div>
+      
+  </div>
+    
+        <!--3ª linha-->
+<div class="form-row">
+ <div class="form-group col-md-4 mb-3">
+    <label for="exampleFormControlSelect1">Sexo</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>Feminino</option>
+      <option>Masculino</option>
+      <option>Agênero</option>
+      <option>Transgênero</option>
+      <option>Outro</option>
+    </select>
+  </div>
+      
+    <div class="form-group col-md-4 mb-3">
+      <label for="validationServer07">Data de nascimento</label>
+      <input type="text" class="form-control is-valid" id="validationServer07" placeholder="Ex.: DD/MM/AAAA" required>
+    </div>
+      
+    <div class="form-group col-md-4 mb-3">
+      <label for="validationServer08">Telefone</label>
+      <input type="text" class="form-control is-valid" id="validationServer08" placeholder="Ex.: (11)99999-9999" required>
+    </div>
+      
+  </div>
+    
+    <!--4ª linha-->
+<div class="form-row">
+    <div class="form-group col-md-4 mb-3">
+      <label for="validationServer09">CEP</label>
+      <input type="text" class="form-control is-valid" id="validationServer09" placeholder="12345-678" required>
+    </div>
+      
+    <div class="form-group col-md-4 mb-3">
+      <label for="validationServer10">Endereço</label>
+      <input type="text" class="form-control is-valid" id="validationServer10" placeholder="Ex.: Rua Fatec" required>
+    </div>
+    
+    <div class="form-group col-md-4 mb-3">
+      <label for="validationServer11">Número</label>
+      <input type="text" class="form-control is-valid" id="validationServer11" required>
+    </div>
+      
+  </div>
+    
+    
+    <!--5ª linha-->
+<div class="form-row">
+    <div class="form-group col-md-4 mb-3">
+      <label for="validationServer12">Complemento</label>
+      <input type="text" class="form-control is-valid" id="validationServer12" placeholder="Ex.: Apto 13" required>
+    </div>
+      
+    <div class="form-group col-md-4 mb-3">
+      <label for="validationServer13">Bairro</label>
+      <input type="text" class="form-control is-valid" id="validationServer13" placeholder="Ex.: Bairro: Esperança de Um Diploma" required>
+    </div>
+    
+    <div class="form-group col-md-4 mb-3">
+      <label for="validationServer14">Ponto de referência</label>
+      <input type="text" class="form-control is-valid" id="validationServer13" placeholder="Ex.: Próximo da Rua dos Sonhos Quebrados" required>
+    </div>
+      
+  </div> 
+    
+
+
+    <div class="form-check">
+      <input class="form-check-input is-invalid" type="checkbox" value="" checked id="invalidCheck3" required>
+      <label class="form-check-label" for="invalidCheck3">
+        Desejo receber novidades por email!
+      </label>
+    </div>
+          <button class="btn btn-primary" type="submit">Finalizar Cadastro</button>
+
+    
+</form>
+
+    </div>
+    
+    <!--Rodapé-->
+<footer class="bg-light">
+    <div class="container text-center">
+      <h2 class="p-2">Contatos</h2> 
+        <div class="row">
+            <div class="col-12">
+                <span><a href="#"><i class="fab fa-facebook-square fa-3x" style="color: #006aff";></i></a></span>
+                <span><a href="#"><i class="fab fa-instagram fa-3x" style="color: #ffccfb"></i></a></span>
+                <span><a href="#"><i class="fab fa-twitter-square fa-3x" style="color: #00e9ff"></i></a></span>
+                 <span><a href="#"><i class="fab fa-snapchat-square fa-3x" style="color: #fffa00"></i></a></span>
+                <span><a href="#"><i class="fab fa-pinterest-square fa-3x" style="color: #d62f19"></i></a></span>
+                <span><a href="#"><i class="fab fa-tumblr-square fa-3x" style="color: #324268"></i></a></span>
+            <span><a href="#"><i class="fab fa-youtube-square fa-3x" style="color: #e21e04"></i></a></span>
+            </div>
+        </div>
+    </div>
+    
+           <p class="mt-5 mb-1 text-muted" style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; text-align: center">© 2019</p>
+</footer>
+
+    
+</body>
+
+
+</html>

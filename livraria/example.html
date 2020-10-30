@@ -1,0 +1,86 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Sistemas BTR - Transportes</title>   
+        <script type="text/javascript">
+        var principal = {};
+
+principal.start = function(){
+  $('#footer').css('position','static');
+};
+
+$(window).scroll(function(){   
+  //var s = $(document.body)[0].scrollHeight;
+  var h = $(window).height();
+  s > h ? $('#footer').css('position','static') : $('#footer').css('position','fixed');;
+  //$('#footer').css('top',h-42); // CASO PRECISE DESCONTAR O NAVBAR
+  $('#footer').css('top',h); // PARA FIXAR O FOOTER NA PARTE INFERIOR DA PAGINA
+});
+
+principal.start();
+            </script>
+        
+        <style>
+        
+            #footer	{
+            
+            margin: 0px auto 0px auto;
+            padding: 0px 0 0 0;
+            text-align: center;
+            position: static;
+            width: 100%;
+            
+            }
+    .fixed { position: fixed; }
+    .static { position: static; }
+    #footer-left	{
+            color: #FFFFFF;	 
+            font-size: 11px;
+            line-height: 11px;
+            padding: 10px 0 10px 0px;
+            border-top: 5px solid #A5151E;
+            border-bottom: 1px solid #dbdbdb;
+            background: #2A2A2A;    
+            height: 12px;
+            
+            } 
+    #footer-left a	{
+            color: #FFFFFF;
+            text-decoration: none;
+            }
+    #footer-left 	 a.selected,
+    #footer-left 	 a:hover	{
+            color: red;
+            text-decoration: none;
+            }
+            #conteudo{ height: 300px; width: 100%; background: yellow; }
+            
+        
+        </style>
+        
+    </head>
+    
+<body>         
+    <div class="nav-outer-repeat" >
+        <ul id="nav" class="nav-outer">            
+            <div style="float: right;">                
+            </div>            
+        </ul>
+    </div>        
+    <div id="content-outer"><div id="conteudo"> corpo do texto</div></div>
+    <!--<div class="clear">&nbsp;</div>-->
+    <div id="barraMin" style="height: 0px; overflow-x: auto;" ></div>
+    <div id="footer">        
+        <div id="footer-left">                            
+            <div id="link" style="text-align: center; ">RODAPÉ                   
+            </div>                 
+        </div>                 
+    </div>
+    
+    <script>
+              
+    </script>
+</body>    
+</html>

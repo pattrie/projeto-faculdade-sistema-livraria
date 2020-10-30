@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Librairie Belle</title>
+  <!--padrão para funcionar adequadamente em diversos navegadores-->
+  <link rel="icon" id="favicon" href="img/iconfinder_love-book_2903245.png" type="image/x-icon" />
+
+  <script src="https://kit.fontawesome.com/1466977700.js"></script>
+
+  <!--Links para o CSS e JS do Bootstrap e jQuery-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!--Folha de Estilo-->
+  <link rel="stylesheet" href="css/livrariabelle.css">
+
+  <!--Link para fontes externas-->
+  <link
+    href="https://fonts.googleapis.com/css?family=Amiri|Dancing+Script|EB+Garamond|Great+Vibes|Libre+Franklin|Satisfy&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <a href="index.html" class="navbar-brand"><img id="navbar-brand-logo" src="img/iconfinder_love-book_2903245.png"
+            alt="book"></a>
+        <a href="historia.html" class="navbar-brand" id="logo">Librairie Belle</a>
+        <button class="navbar-toggle glyphicon glyphicon-menu-hamburger" data-toggle="collapse"
+          data-target="#navbar-belle"></button>
+
+      </div>
+
+      <!-- ul>li*5>a -->
+      <ul id="navbar-belle" class="nav navbar-nav nav navbar-right collapse navbar-collapse">
+        <li class="active"><a href="login.html">Entre</a></li>
+        <li><a href="cadastro.html">Cadastre-se</a></li>
+        <li><a href="promo.html">Promoções</a></li>                
+        <li><a href="lista.html">Lista de Desejos</a></li>
+        <li><a href="carrinho.html">Carrinho</a></li>
+    </ul>
+
+    </div>
+
+  <section class="container-fluid">
+    <div class="row">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!--Indicators-->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <!--Indicators-->
+        <!--Itens do carousel-->
+        <div class="carousel-inner" role="listbox">
+
+          <div class="item active col-md-12 text-center">
+            <img class="img-responsive" src="http://statics.livrariacultura.net.br/products/capas_lg/843/46055843.jpg"
+              alt="First slide" style="text-align: center">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Exemple headline.</h1>
+                <p>Note: If you're viewing this page</p>
+                <p><a class="btn btn-lg btn-primary" href="livro.html" role="button">Compre aqui!</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="item col-md-12 text-center">
+            <img class="img-responsive"
+              src="https://images.livrariasaraiva.com.br/imagemnet/imagem.aspx/?pro_id=9281945&qld=90&l=430&a=-1"
+              alt="Second slide">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Another exemple headline.</h1>
+                <p>Note: If you're viewing this page</p>
+                <p><a class="btn btn-lg btn-primary" href="livro.html" role="button">Compre aqui!</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="item col-md-12 text-center">
+            <img class="img-responsive" src="https://images-na.ssl-images-amazon.com/images/I/516hMNiSQgL.jpg"
+              alt="Third slide">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>One more for good measure.</h1>
+                <p>Note: lalalalalalallalalalalalalalalalalalalalalala</p>
+                <p><a class="btn btn-lg btn-primary" href="livro.html" role="button">Compre aqui!</a></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!--Itens de carousel-->
+
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
+      </div>
+    </div>
+
+  </section>
+
+</nav>
+
+<div class="card-group">
+    <div class="card">
+      <img class="card-img-top" src="img/iconfinder_book_1511315.ico" alt="Imagem de capa do card">
+      <div class="card-body">
+        <h5 class="card-title">Título do card</h5>
+        <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior, para demonstração.</p>
+        <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="img/iconfinder_book_1511315.ico" alt="Imagem de capa do card">
+      <div class="card-body">
+        <h5 class="card-title">Título do card</h5>
+        <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+        <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="img/iconfinder_book_1511315.ico" alt="Imagem de capa do card">
+      <div class="card-body">
+        <h5 class="card-title">Título do card</h5>
+        <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este card tem o conteúdo ainda maior que o primeiro, para mostrar a altura igual, em ação.</p>
+        <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+      </div>
+    </div>
+  </div>
+
+
+  <!--Rodapé-->
+  <footer class="bg-light">
+    <div class="container text-center">
+      <h2 class="p-2">Contatos</h2>
+      <div class="row">
+        <div class="col-12">
+          <span><a href="#"><i class="fab fa-facebook-square fa-3x" style="color: #006aff" ;></i></a></span>
+          <span><a href="#"><i class="fab fa-instagram fa-3x" style="color: #ffccfb"></i></a></span>
+          <span><a href="#"><i class="fab fa-twitter-square fa-3x" style="color: #00e9ff"></i></a></span>
+          <span><a href="#"><i class="fab fa-snapchat-square fa-3x" style="color: #fffa00"></i></a></span>
+          <span><a href="#"><i class="fab fa-pinterest-square fa-3x" style="color: #d62f19"></i></a></span>
+          <span><a href="#"><i class="fab fa-tumblr-square fa-3x" style="color: #324268"></i></a></span>
+          <span><a href="#"><i class="fab fa-youtube-square fa-3x" style="color: #e21e04"></i></a></span>
+        </div>
+      </div>
+    </div>
+
+    <p class="mt-5 mb-1 text-muted"
+      style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; text-align: center">© 2019</p>
+  </footer>
+
+</body>
+
+</html>
